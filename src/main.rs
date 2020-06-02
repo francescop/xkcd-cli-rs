@@ -10,7 +10,6 @@ async fn main() {
         .setting(AppSettings::ArgRequiredElseHelp)
         .version("1.0")
         .about("show xkcd titles")
-        .author("fp")
         .arg(
             Arg::new("xkcd_number")
                 .short('n')
